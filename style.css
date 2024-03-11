@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+}
+.center{
+    width: 70%;
+    margin: auto;
+}
+.first,.second{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: rgb(185, 174, 160);
+}
+th,td{
+    padding: 10px 0;
+}
+input{
+    width: 90%;
+    padding: 10px 0;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 9%;
+}
